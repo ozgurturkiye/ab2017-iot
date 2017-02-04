@@ -29,7 +29,7 @@ Biz kısaca şu işlemi yapıyoruz: `sudo usermod -a -G dialout USERNAME` ve oto
 7. Ubuntu üzerinde MQTT'ye mesaj gönderebilmek için verilmesi gereken komut `mosquitto_pub -h iot.eclipse.org -t ab2017/mesaj -m "Özgür mesaj"` tabi mosquitto_pub kurulacak önce :)
 
 8. ESP ile HelloServer uygulama örneği
- * ESP8266Webserver-HelloServer örneğini açıyoruz. 
+ * Arduino IDE üzerinden Examples--> ESP8266WebServer--> Helloserver yüklemesi yapılır. 
  * const char* ssid = "............";
  * const char* password = "........";  Ayarlarını uygun şekilde yapıyoruz. Yani telefonun SSID ve Parolası
  * Yükleme işlemini yaptıktan sonra ESP yi bir defa resetleyip durumu Serial Motitörden takip edebiliriz.
