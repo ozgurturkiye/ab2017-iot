@@ -35,4 +35,7 @@ Biz kısaca şu işlemi yapıyoruz: `sudo usermod -a -G dialout USERNAME` ve oto
  * Yükleme işlemini yaptıktan sonra ESP yi bir defa resetleyip durumu Serial Motitörden takip edebiliriz.
  * Ayrıca ESP için yeni bir `IP adresi` atayacak, `Serial Monitörden` bunu görebilirsin. Bu atanmış `IP adresini` tarayıcıya girerek mesajı görebilirsin.
 
-9. 
+9. `esp_temperature.ino` uygulaması için yapılacaklar.
+ * `one wire` by Jim studt isimli kütüphaneyi ekliyoruz.
+ * https://github.com/knolleary/pubsubclient/releases/tag/v2.6 adresinden zip olarak indirdiğimiz library'i ekliyoruz.
+ * 
