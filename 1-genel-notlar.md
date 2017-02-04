@@ -27,4 +27,12 @@ Biz kısaca şu işlemi yapıyoruz: `sudo usermod -a -G dialout USERNAME` ve oto
   * Add bölümünde `Text` `Switch/button` `Range/progress` `Multi choice` `Image` ve `Color` ekleyebiliyoruz.
   * Önemli bilgi - Eğer aynı topic ismi ile `text` ve `botton` ekler isek birbirlerinin üzerine yazabiliyorlar. Keyifli iş :)
 7. Ubuntu üzerinde MQTT'ye mesaj gönderebilmek için verilmesi gereken komut `mosquitto_pub -h iot.eclipse.org -t ab2017/mesaj -m "Özgür mesaj"` tabi mosquitto_pub kurulacak önce :)
-8. 
+
+8. ESP ile HelloServer uygulama örneği
+ * ESP8266Webserver-HelloServer örneğini açıyoruz. 
+ * const char* ssid = "............";
+ * const char* password = "........";  Ayarlarını uygun şekilde yapıyoruz. Yani telefonun SSID ve Parolası
+ * Yükleme işlemini yaptıktan sonra ESP yi bir defa resetleyip durumu Serial Motitörden takip edebiliriz.
+ * Ayrıca ESP için yeni bir `IP adresi` atayacak, `Serial Monitörden` bunu görebilirsin. Bu atanmış `IP adresini` tarayıcıya girerek mesajı görebilirsin.
+
+9. 
