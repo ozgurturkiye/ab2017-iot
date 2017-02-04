@@ -5,6 +5,14 @@
 3. `Arduino web editor` usb bağlantısı için `/dev/ttyACM0` bağlantısını kullanıyor ve ubuntu da bunu kullanması için izin vermek gerekli. Çözüm önerileri şurada http://askubuntu.com/questions/58119/changing-permissions-on-serial-port verilmiş.
 Biz kısaca şu işlemi yapıyoruz: `sudo usermod -a -G dialout USERNAME` ve otorumu kapatıp açıyoruz. Bu işlem ne mi işe yarar :) kendimizi `dialout` grubuna dahil etmemizi sağlar.
 
-> Bunu sevmediysen her seferinde `sudo chmod 666 ttyACM0` şeklinde erişim izinlerini de düzenleyebilirsin lakin her bilgisayar açılış kapanışında yeniden yapman gerekir. Gereksiz uğraş...
+  Bunu sevmediysen her seferinde `sudo chmod 666 ttyACM0` şeklinde erişim izinlerini de düzenleyebilirsin lakin her bilgisayar açılış kapanışında yeniden yapman gerekir. Gereksiz uğraş...
 
-4. 
+4. Linux üzerinde ARDUINO 1.8.1 IDE kurulumu. (Kaynakça: https://www.arduino.cc/en/guide/linux)
+ 4.1 Download ARDUINO 1.8.1 IDE
+ 4.2 Dosyayı çıkar
+ 4.3 Terminali aç ve çıkarılan dizinin içine gir
+ 4.4 Bu komutu çalıştır `./install.sh`
+ 4.5 Kurulum gerçekleştikten sonra USB izin ayarları ve bord seçimini yaparsın artık :)
+ 
+5. Arduino IDE'ye ESP 8266 mod MCU desteği eklenmesi.
+ 5.1
