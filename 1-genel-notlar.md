@@ -15,4 +15,7 @@ Biz kısaca şu işlemi yapıyoruz: `sudo usermod -a -G dialout USERNAME` ve oto
  4.5 Kurulum gerçekleştikten sonra USB izin ayarları ve bord seçimini yaparsın artık :)
  
 5. Arduino IDE'ye ESP 8266 mod MCU desteği eklenmesi.
- 5.1
+ * https://github.com/esp8266/Arduino kütüphanesini ekleyeceğiz.
+ * http://arduino.esp8266.com/stable/package_esp8266com_index.json
+ * üstteki bu satırı kopyalayıp ARDUİNO 1.6 ÜZERİ VERSYONU İÇİNE TERCİHLER/DEVREKARTLARI YÖNETİCİSİ URL ALANINA YAPIŞTIRIYORUZ.
+ * SONRA ARAÇLAR / KART / KART YÖNETİCİSİNE GİRİP 2. versyonunu kuruyoruz. SONRA ARAÇLAR/KART/Node MCU 1.0 (ESP-12Module) seçilir.  Not: Biz Node MCU kullanarak devreden yırttık:)
