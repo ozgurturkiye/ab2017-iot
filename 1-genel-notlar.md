@@ -40,4 +40,8 @@ Biz kısaca şu işlemi yapıyoruz: `sudo usermod -a -G dialout USERNAME` ve oto
 9. `esp_temperature.ino` uygulaması için yapılacaklar.
  * `one wire` by Jim studt isimli kütüphaneyi ekliyoruz.
  * https://github.com/knolleary/pubsubclient/releases/tag/v2.6 adresinden zip olarak indirdiğimiz library'i ekliyoruz.
- * 
+
+10. 5 Şubat Pazar notları
+ * CloudMQTT hesap açıldı. Ücretsiz olarak hesap açıp kullanılabiliyor. Site: https://www.cloudmqtt.com/
+ * CloudMQTT Overview altındaki bilgiler, Telefonda `MQTT Dash` uygulamasına gerekli değerler girilerek izlenebiliyor.
+ *
