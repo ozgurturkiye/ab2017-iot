@@ -44,4 +44,4 @@ Biz kısaca şu işlemi yapıyoruz: `sudo usermod -a -G dialout USERNAME` ve oto
 10. 5 Şubat Pazar notları
  * CloudMQTT hesap açıldı. Ücretsiz olarak hesap açıp kullanılabiliyor. Site: https://www.cloudmqtt.com/
  * CloudMQTT Overview altındaki bilgiler, Telefonda `MQTT Dash` uygulamasına gerekli değerler girilerek izlenebiliyor.
- *
+ * GitHub çalışmaları yapıldı.
