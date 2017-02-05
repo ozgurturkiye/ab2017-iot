@@ -45,4 +45,6 @@ Biz kısaca şu işlemi yapıyoruz: `sudo usermod -a -G dialout USERNAME` ve oto
  * CloudMQTT hesap açıldı. Ücretsiz olarak hesap açıp kullanılabiliyor. Site: https://www.cloudmqtt.com/
  * CloudMQTT Overview altındaki bilgiler, Telefonda `MQTT Dash` uygulamasına gerekli değerler girilerek izlenebiliyor.
  * GitHub çalışmaları yapıldı.
- * `http://remotexy.com` Grafiksel olarak MODMCU ve ARDUINO kullanabileceğimiz faydalı web sitesi. Deligibi arayüz tasarlayabilirsin. APPinventor'ın bir benzeri. 
+ * `http://remotexy.com` Grafiksel olarak MODMCU ve ARDUINO kullanabileceğimiz faydalı web sitesi. Deligibi arayüz tasarlayabilirsin. APPinventor'ın bir benzeri.
+ * MQTT WEB Socket ücretsiz deme için: http://www.hivemq.com/demos/websocket-client/
+ * Ayrıca MQTT temelleri ve uygulaması üzerine güzel bilgiler olan bir site: http://www.hivemq.com/
