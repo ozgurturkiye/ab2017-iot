@@ -13,7 +13,7 @@ Biz kısaca şu işlemi yapıyoruz: `sudo usermod -a -G dialout USERNAME` ve oto
  * Terminali aç ve çıkarılan dizinin içine gir
  * Bu komutu çalıştır `./install.sh`
  * Kurulum gerçekleştikten sonra USB izin ayarları ve bord seçimini yaparsın artık :)
- 
+
 5. Arduino IDE'ye ESP 8266 mod MCU desteği eklenmesi.
  * Detaylı `ESP8266 core for Arduino` bilgisi için lütfen okuyunuz: http://esp8266.github.io/Arduino/versions/2.3.0/
  * Detaylı anlatım için: http://www.instructables.com/id/Quick-Start-to-Nodemcu-ESP8266-on-Arduino-IDE/
@@ -31,7 +31,7 @@ Biz kısaca şu işlemi yapıyoruz: `sudo usermod -a -G dialout USERNAME` ve oto
 7. Ubuntu üzerinde MQTT'ye mesaj gönderebilmek için verilmesi gereken komut `mosquitto_pub -h iot.eclipse.org -t ab2017/mesaj -m "Özgür mesaj"` tabi mosquitto_pub kurulacak önce :)
 
 8. ESP ile HelloServer uygulama örneği
- * Arduino IDE üzerinden Examples--> ESP8266WebServer--> Helloserver yüklemesi yapılır. 
+ * Arduino IDE üzerinden Examples--> ESP8266WebServer--> Helloserver yüklemesi yapılır.
  * const char* ssid = "............";
  * const char* password = "........";  Ayarlarını uygun şekilde yapıyoruz. Yani telefonun SSID ve Parolası
  * Yükleme işlemini yaptıktan sonra ESP yi bir defa resetleyip durumu Serial Motitörden takip edebiliriz.
@@ -45,3 +45,4 @@ Biz kısaca şu işlemi yapıyoruz: `sudo usermod -a -G dialout USERNAME` ve oto
  * CloudMQTT hesap açıldı. Ücretsiz olarak hesap açıp kullanılabiliyor. Site: https://www.cloudmqtt.com/
  * CloudMQTT Overview altındaki bilgiler, Telefonda `MQTT Dash` uygulamasına gerekli değerler girilerek izlenebiliyor.
  * GitHub çalışmaları yapıldı.
+ * `http://remotexy.com` Grafiksel olarak MODMCU ve ARDUINO kullanabileceğimiz faydalı web sitesi. Deligibi arayüz tasarlayabilirsin. APPinventor'ın bir benzeri. 
