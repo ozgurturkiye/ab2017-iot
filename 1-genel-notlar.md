@@ -46,7 +46,6 @@ Biz kısaca şu işlemi yapıyoruz: `sudo usermod -a -G dialout USERNAME` ve oto
  * CloudMQTT Overview altındaki bilgiler, Telefonda `MQTT Dash` uygulamasına gerekli değerler girilerek izlenebiliyor.
  * GitHub çalışmaları yapıldı.
  * `http://remotexy.com` Grafiksel olarak MODMCU ve ARDUINO kullanabileceğimiz faydalı web sitesi. Deligibi arayüz tasarlayabilirsin. APPinventor'ın bir benzeri.
-<<<<<<< HEAD
 
 11. 6 Şubat Pazartesi notları `platformio` kurulumu ve temel kullanım
  * Kurulum detayları http://docs.platformio.org/en/latest/ide/atom.html#installation
@@ -55,9 +54,8 @@ Biz kısaca şu işlemi yapıyoruz: `sudo usermod -a -G dialout USERNAME` ve oto
  * Alakasız ek bilgi: MODMCU firmware dosyasını yeniden daha küçük şekilde yapılandırabiliyoruz. Bunun için firmware'i https://nodemcu-build.com/ sitesinden seçenekleri azaltarak yapabiliriz.
  * `Raspberyy Pi` wifi ayarlarını komut satırından yapma için: https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md
  * Secure copy için örnekler: http://www.hypexr.org/linux_scp_help.php
- * Copy the file "foobar.txt" from the local host to a remote host için: ``$ scp foobar.txt your_username@remotehost.edu:/some/remote/directory`
- 
-=======
+ * Copy the file "foobar.txt" from the local host to a remote host için: `$ scp foobar.txt your_username@remotehost.edu:/some/remote/directory`
+
  * MQTT WEB Socket ücretsiz deme için: http://www.hivemq.com/demos/websocket-client/
  * Ayrıca MQTT temelleri ve uygulaması üzerine güzel bilgiler olan bir site: http://www.hivemq.com/
->>>>>>> 537e9faf1a8ebe72b4f20943e6d7c369ab12450d
+ * ek
