@@ -55,7 +55,13 @@ Biz kısaca şu işlemi yapıyoruz: `sudo usermod -a -G dialout USERNAME` ve oto
  * `Raspberyy Pi` wifi ayarlarını komut satırından yapma için: https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md
  * Secure copy için örnekler: http://www.hypexr.org/linux_scp_help.php
  * Copy the file "foobar.txt" from the local host to a remote host için: `$ scp foobar.txt your_username@remotehost.edu:/some/remote/directory`
-
  * MQTT WEB Socket ücretsiz deme için: http://www.hivemq.com/demos/websocket-client/
  * Ayrıca MQTT temelleri ve uygulaması üzerine güzel bilgiler olan bir site: http://www.hivemq.com/
- * ek
+
+12. `Digitalocean` üzerinde mosquitto kurulumu:
+ * mosquitto kurulur: `sudo apt install mosquitto`
+ * mosquitto servisini durduruyoruz: `sudo service mosquitto stop`
+ * mosquitto servisini yeniden çalıştırıyoruz: `service mosquitto start`
+ * Burada bize port numarası ve gerekli bilgileri veriyor. 1883 olacak
+ * Bu kadar :) Şuan telefonunuzda ki `Dashboard`tan ayarları girip ve `topic` oluşturup MQTT yi kullanabilirsiniz.
+ 
