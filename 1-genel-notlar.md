@@ -64,4 +64,13 @@ Biz kısaca şu işlemi yapıyoruz: `sudo usermod -a -G dialout USERNAME` ve oto
  * mosquitto servisini yeniden çalıştırıyoruz: `service mosquitto start`
  * Burada bize port numarası ve gerekli bilgileri veriyor. 1883 olacak
  * Bu kadar :) Şuan telefonunuzda ki `Dashboard`tan ayarları girip ve `topic` oluşturup MQTT yi kullanabilirsiniz.
- 
+
+13. 7 Şubat Salı notlar
+ * OTA uygulaması için kullandığımız kod: `karakaplanm/iot/OTAWebLed/`
+ * Ota güncelleme kodu: `pio run -t upload --upload-port 192.168.43.116`
+ * Tabii yukarıda kendi ağımızdaki ESP'nin ip adresini giriyoruz.
+ * `IP` adresini öğrenmek ve ağa bağlı cihazları taramak için: `nmap -sn 192.168.1.1/24` veya `arp -a` da veya detaylı sorgulama için `sudo nmap -sP 192.168.43.0/24` kullanılabiliyor.
+ * APPinventor kullanımı Android uygulaması yapabilirsin `scratch` e benziyor :)
+ * APPinventor web sitesi http://appinventor.mit.edu/explore/
+ * osc(open sound control) açık bir protokol, google play de arayüzeler var appinventor ile yapması zor olduğu için hazır arayüzler kullanılabilirmiş. Bu protokol ile direk cihazdan cihaza `UDP` portunu kullanarak gönderim yapılıyor.
+ * 
