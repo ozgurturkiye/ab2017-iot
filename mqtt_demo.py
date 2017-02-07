@@ -8,7 +8,8 @@ def on_connect(client, userdata, flags, rc):
 
     # Subscribing in on_connect() means that if we lose the connection and
     # reconnect then subscriptions will be renewed.
-    client.subscribe("/ab2017/mesaj")
+    client.subscribe("Humidity")
+#    client.subscribe("/ab2017/mesaj")
 
 # The callback for when a PUBLISH message is received from the server.
 def on_message(client, userdata, msg):
@@ -20,7 +21,8 @@ def on_message(client, userdata, msg):
     #gelen_mesajın 2 den balayıp son değer hariç alınması için
     gelen_mesaj_parse = gelen_mesaj[2:-1]
     print(gelen_mesaj_parse)
-    konu = "/ab2017/mesaj"
+    konu = "Humidity"
+#    konu = "/ab2017/mesaj"
     an = datetime.now()
     tarih = datetime.ctime(an)
 
@@ -37,10 +39,13 @@ def on_message(client, userdata, msg):
         vt.commit()
 
 client = mqtt.Client()
+client.username_pw_set(username="ijibrftp",password="-2kSKUN9MznW")
 client.on_connect = on_connect
 client.on_message = on_message
 
-client.connect("iot.eclipse.org", 1883, 60)
+client.connect("m10.cloudmqtt.com", 11665, 60)
+
+#client.connect("iot.eclipse.org", 1883, 60)
 
 # Blocking call that processes network traffic, dispatches callbacks and
 # handles reconnecting.
